@@ -1,29 +1,34 @@
 import React from "react";
-import boom_1 from "../assets/boom_1.png";
-import wolk_1 from "../assets/wolk_1.png";
-import wolk_2 from "../assets/wolk_2.png";
+import boom_1 from "../../assets/boom_1.png";
+import wolk_1 from "../../assets/wolk_1.png";
+import wolk_2 from "../../assets/wolk_2.png";
 import "./App.css";
 
 // imports kampvuur
 
-import onderKant_kampvuur from "../assets/kampvuur/onder_kantvuur.png";
-import rechterKant_kampvuur from "../assets/kampvuur/rechterkant_vuur.png"
-import linkerKant_kampvuur from "../assets/kampvuur/links_vuur.png"
+import onderKant_kampvuur from "../../assets/kampvuur/onder_kantvuur.png";
+import rechterKant_kampvuur from "../../assets/kampvuur/rechterkant_vuur.png"
+import linkerKant_kampvuur from "../../assets/kampvuur/links_vuur.png"
 
 
 
 // imports yoa 
 
-import linker_arm_yoa from "../assets/yoa/linkerarmyoa.png";
-import rechter_arm_yoa from "../assets/yoa/rechterarmyoa.png";
-import middel_yoa from "../assets/yoa/middelvanyoa.png";
+import linker_arm_yoa from "../../assets/yoa/linkerarmyoa.png";
+import rechter_arm_yoa from "../../assets/yoa/rechterarmyoa.png";
+import middel_yoa from "../../assets/yoa/middelvanyoa.png";
 
 
-//vos 
+// imports vos 
 
-import linker_poot_vos from "../assets/vos/linkerpoot.png"
-import rechter_poot_vos from "../assets/vos/rechterpoot.png"
-import middel_van_vos from "../assets/vos/middel_van_vos.png"
+import linker_poot_vos from "../../assets/vos/linkerpoot.png"
+import rechter_poot_vos from "../../assets/vos/rechterpoot.png"
+import middel_van_vos from "../../assets/vos/middel_van_vos.png"
+
+// imports peer
+import  linker_arm_peer from "../../assets/peer/linkerarmpeer.png"
+import middel_van_peer from "../../assets/peer/middelvanpeer.png"
+import rechter_arm_peer from "../../assets/peer/rechterarmpeer.png"
 
 
 
@@ -69,6 +74,18 @@ function App() {
                     <div id="rechterpoot_vos">
                         <img id="rechterpoot_vos_img" src={rechter_poot_vos} alt="rechterpoot_vos" />
                 </div>
+
+                </div>
+            <div id="peer_frame_1_container">
+                <div id="linker_arm_peer">
+                    <img id="linker_arm_peer_img" src={linker_arm_peer} alt="linker_arm_peer" />
+                </div>
+                <div id="middel_van_peer">
+                    <img id="middel_van_peer_img" src={middel_van_peer} alt="middel_van_peer" />
+                </div>
+                <div id="rechter_arm_peer">
+                    <img id="rechter_arm_peer_img" src={rechter_arm_peer} alt="rechter_arm_peer" />
+                </div>
                 
             </div>
             <div id="yoa_frame_1_container">
@@ -81,6 +98,9 @@ function App() {
                 <div id="middel_yoa">
                     <img id="middel_yoa_img" src={middel_yoa} alt="middel_yoa" />
                 </div>
+            </div>
+            <div id="tekst_frame_1">
+                <h1>1. peer liep door het bos zonder een plan</h1>
             </div>
         </div>
     </div>

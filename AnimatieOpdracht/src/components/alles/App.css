@@ -165,9 +165,9 @@
 
 #yoa_frame_1_container {
     position: relative;
-    top: 100px;
+    top: 765px;
     left: 100px;
-    animation: yoa_bounce 2.4s infinite ease-in-out;
+    animation: yoa_bounce 2.4s infinite linear;
 }
 #middel_yoa {
     position: absolute;
@@ -196,7 +196,7 @@
     position: absolute;
     height: 200px;
     width: 200px;
-    top: 235px;
+    top: 165px;
     left: -100px;
     animation: wave 2.4s infinite ease-in-out;
     transform-origin: top center; /* Ensures a natural pivot point */
@@ -207,9 +207,70 @@
     width: 170px;
 }
 
-
+#rechter_arm_yoa {
+    position: absolute;
+    top: 155px;
+    left: 150px;
+    width: 0px;
+    height: 0px;
+    animation: wave 2.4s infinite ease-in-out;
+}
 #vos_frame_1_container{
     position: relative;
     height: 0px;
     width: 0px;
+    left: 600px;
+}
+
+#linkerpoot_vos{
+    position: absolute;
+    left: 60px;
+    top: 185px;
+    width: 0px;
+    height: 0px;
+}
+
+#rechterpoot_vos{
+    position: absolute;
+    left: 180px;
+    top: 160px;
+    width: 0px;
+    height: 0px;
+}
+#tekst_frame_1 {
+    position: absolute;
+    top: 500px;
+    left: 500px
+}
+#tekst_frame_1 h1 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    text-shadow: 2px 2px 4px gray;
+}
+
+
+#peer_frame_1_container{
+    position: relative;
+    height: 0px;
+    width: 0px;
+    left: 800px;
+    top: 760px;
+}
+
+#linker_arm_peer{
+    position: absolute;
+    left: -50px;
+    top: 220px;
+    width: 0px;
+    height: 0px;
+}
+
+#rechter_arm_peer{
+    position: absolute;
+    left: 100px;
+    top: 210px;
+    width: 0px;
+    height: 0px;
 }
